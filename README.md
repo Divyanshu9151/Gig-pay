@@ -1,69 +1,124 @@
-# 🚀 GigPay — Real-Time Payroll for Gig Workers
+# 🚀 Alora — Portable Professional Identity for the Informal Workforce
 
 ## 🧩 Problem
 
-India has over **15 million gig workers** (delivery, home services, etc.) who typically receive payments **5–7 days after completing tasks**.
+Millions of gig workers and informal workers — drivers, delivery partners, hotel staff, freelancers, and daily wage workers — still lack a trusted professional identity.
 
-This delay creates:
-- Financial stress for daily expenses (fuel, food, recharge)
-- Dependence on high-interest, predatory credit systems
-- Lack of financial inclusion for a large workforce
+Today:
+- Work history stays locked inside individual platforms
+- Workers restart from zero when changing jobs
+- Businesses struggle to verify worker credibility
+- Informal workers lack access to financial services due to no formal records
+
+As a result, millions of hardworking people remain invisible to the professional and financial ecosystem.
 
 ---
 
 ## 💡 Solution
 
-**GigPay** is an **autonomous on-chain payroll agent** that enables **instant payments for gig workers**.
+**Alora** is a decentralized professional identity and reputation infrastructure built on Algorand.
 
-Instead of waiting days, workers get paid **within seconds of task completion**.
+We enable workers to build a **portable on-chain identity** containing:
+- Verified work history
+- Employer attestations
+- Ratings & endorsements
+- Reputation score (Aura Score)
+- Work milestones & benefits
 
-### ⚡ Key Idea
-- Platforms pre-fund an escrow pool
-- Tasks are verified in real-time
-- Payments are released instantly via smart contracts
+This identity belongs to the worker and moves with them across jobs, platforms, and cities.
+
+---
+
+## ⚡ Key Idea
+
+- Employers issue verifiable work attestations
+- Worker reputation becomes portable
+- Businesses can instantly verify trust
+- Workers build long-term professional credibility
+- Future financial services can be unlocked using verified work data
 
 ---
 
 ## 🛠️ How It Works
 
-1. 📦 Worker completes a task  
-2. 🤖 AI agent listens to platform webhook  
-3. 🔐 Verification happens via **x402 oracle (HTTP 402 flow)**  
-4. ✅ Proof is validated cryptographically  
-5. 💰 Smart contract releases payment in **USDC**  
-6. 💸 Worker can instantly convert to INR via UPI  
-
-⏱️ Total time: **< 30 seconds**
+1. 👷 Worker completes work/task  
+2. 🏢 Employer verifies & signs attestation  
+3. ⛓️ Record gets stored on Algorand blockchain  
+4. 📊 Aura Score updates dynamically  
+5. 🔍 Businesses can verify worker credibility instantly  
+6. 💳 Future financial partners can use this data for underwriting  
 
 ---
 
 ## 🧱 Architecture
 
 - **Blockchain:** Algorand  
-- **Smart Contracts:** PyTeal / ARC4  
-- **Verification Layer:** x402 SDK (pay-per-verification oracle)  
-- **Backend Agent:** Python (event-driven AI agent)  
-- **Frontend:** React (Worker dashboard)  
-- **Payments:** USDC → INR offramp via UPI  
+- **Frontend:** React / Next.js  
+- **Backend:** Node.js / Python  
+- **Smart Contracts:** Algorand Smart Contracts  
+- **Wallet Integration:** Pera Wallet  
+- **Storage:** On-chain + Off-chain metadata  
 
 ---
 
 ## 🔑 Key Features
 
-- ⚡ Instant micro-payments per task  
-- 🔍 Trustless delivery verification  
-- 🔐 On-chain escrow & settlement  
-- 🤖 Autonomous AI-driven payroll agent  
-- 📊 Real-time worker dashboard  
-- 🇮🇳 INR offramp via UPI  
+- 🪪 Portable professional identity  
+- 🔐 Employer-signed on-chain attestations  
+- 📊 Aura Reputation Score  
+- 🌍 Cross-platform worker reputation  
+- 🏢 Business verification infrastructure  
+- 💼 Workforce trust layer  
+- 💳 Financial-readiness infrastructure  
 
 ---
 
 ## 🌍 Impact
 
-- Eliminates delayed payments  
-- Reduces dependency on credit apps  
-- Enables financial inclusion at scale  
-- Generates real on-chain transaction volume  
+- Helps workers carry reputation across jobs  
+- Reduces onboarding & trust issues for businesses  
+- Creates professional identity for informal workers  
+- Unlocks future access to loans, insurance & financial services  
+- Builds trust infrastructure for the global informal economy  
 
 ---
+
+## 🚀 Vision
+
+### Phase 1 — Identity Infrastructure
+Build the LinkedIn for informal workers with portable reputation and verifiable work history.
+
+### Phase 2 — Financial Empowerment
+Become the credit bureau the informal economy never had by enabling underwriting using verified work and reputation data.
+
+---
+
+## 📈 Market Opportunity
+
+- 2+ billion informal workers globally  
+- 90%+ of India’s workforce is informal  
+- Millions lack financial visibility & professional identity  
+- Massive demand for trust & verification infrastructure  
+
+---
+
+## 🏗️ Future Roadmap
+
+- Insurance integrations  
+- Portable EPF & benefits  
+- Loan underwriting APIs  
+- Worker credit scoring  
+- Cross-border worker identity  
+- Global workforce trust infrastructure  
+
+---
+
+## 🤝 Team
+
+[Add team member names]
+
+---
+
+## 📬 Contact
+
+[Add your email / socials / website]
