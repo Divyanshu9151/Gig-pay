@@ -115,10 +115,10 @@ Become the credit bureau the informal economy never had by enabling underwriting
 
 ## 🤝 Team
 
-[Add team member names]
+Divyanshu Anand || Ujjwal Kumar Jha
 
 ---
 
 ## 📬 Contact
 
-[Add your email / socials / website]
+Linkedln: https://www.linkedin.com/in/divyanshu-anand-b6211519b/
